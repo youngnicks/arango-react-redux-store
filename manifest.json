@@ -1,0 +1,21 @@
+{
+    "name": "store",
+    "version": "0.0.0",
+    "description": "React Redux Store",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "Nick Young",
+    "license": "ISC",
+    "main": "main.js",
+    "files": {
+      "/": "assets/build/index.html",
+      "/static": "assets/build/static",
+      "/favicon.ico": "assets/build/favicon.ico"
+  },
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "tests": "test/**/*.js"
+}
